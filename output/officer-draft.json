@@ -1,0 +1,35 @@
+{
+  "rawOcr": {
+    "name": "",
+    "level": "",
+    "traits": "",
+    "summonSkill": "",
+    "summonUpgradeConditions": "",
+    "uniqueTactic": "",
+    "uniqueTacticConditions": "",
+    "effects": ""
+  },
+  "parsed": {
+    "id": "",
+    "name": "",
+    "faction": "cameo",
+    "factionName": "客座",
+    "level": 0,
+    "playerTraits": "",
+    "supportTraits": "",
+    "operationTraitName": "待補",
+    "operationTraitDescription": "操作特性資料待補。",
+    "specialWeaponDescription": "持有特武效果待補。",
+    "limitBreakDescription": "限界突破效果待補。",
+    "summonSkillName": "",
+    "summonSkillDescription": "",
+    "summonSkillLevel": 1,
+    "summonUpgradeConditionType": "all",
+    "summonUpgradeConditions": "",
+    "uniqueTacticName": "",
+    "uniqueTacticDescription": "",
+    "uniqueTacticConditionType": "all",
+    "uniqueTacticConditions": ""
+  },
+  "warnings": []
+}
