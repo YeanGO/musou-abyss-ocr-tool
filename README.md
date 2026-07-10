@@ -57,3 +57,5 @@ python main.py --image input/screenshots/sample.jpg --interactive
 ### PaddleOCR 安裝失敗怎麼辦？
 
 PaddleOCR 與 PaddlePaddle 體積較大，請依你的 Python 版本與平台選擇相容的 PaddlePaddle 套件後再安裝。也可先執行 `--interactive`：即使 OCR 無法載入，程式仍會輸出裁切圖並讓你手動輸入辨識結果。未來也可以改以 `pytesseract` 作為 OCR 引擎。
+
+PaddleOCR 第一次執行會下載辨識模型，因此畫面出現模型下載與連線訊息是正常的。下載完成後再次執行會快得多。模型快取會保存於本專案的 `.paddlex-cache/`，避免使用者家目錄的權限問題。本工具同時支援 PaddleOCR 2.x 與目前的 3.x API。
